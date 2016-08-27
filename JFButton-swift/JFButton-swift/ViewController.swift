@@ -13,8 +13,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-       
-        
         //MARK:例子
         let buttonLeft = JFButton.init(frame: CGRectMake(100, 100, 100, 50), status: JFAlignmentStatus.Left, space: 0)
         setButtonValues(buttonLeft)
